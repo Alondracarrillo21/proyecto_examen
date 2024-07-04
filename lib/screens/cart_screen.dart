@@ -8,28 +8,28 @@ class ShoppingCartScreen extends StatefulWidget {
 class _ShoppingCartScreenState extends State<ShoppingCartScreen> {
   final List<CartItem> cartItems = [
     CartItem(
-      name: 'Video Camera',
+      name: 'Cheescake de fresa',
       code: '#247890',
       price: 849.90,
       quantity: 1,
       imageUrl: 'lib/assets/fresa.webp',
     ),
     CartItem(
-      name: 'Walkman',
+      name: 'pastel de chocolate',
       code: '#367381',
       price: 249.90,
       quantity: 2,
       imageUrl: 'lib/assets/pasteles-de-chocolate.jpeg',
     ),
     CartItem(
-      name: 'Turntable',
+      name: 'Pastel de 3 leches',
       code: '#589001',
       price: 1449.90,
       quantity: 4,
       imageUrl: 'lib/assets/cheecake.jpg',
     ),
     CartItem(
-      name: 'Pager',
+      name: 'Turamisu',
       code: '#567190',
       price: 99.90,
       quantity: 2,
